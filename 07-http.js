@@ -6,6 +6,7 @@ const http = require('http')
 const server = http.createServer()
 // 绑定request 监听客服端的请求
 server.on('request',(req,res) => {
+    // req 客户端相关属性
     console.log('someone visit our web server');
 })
 // 启动服务器
