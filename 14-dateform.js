@@ -1,6 +1,6 @@
 // 定义时间格式化方法
 function dataForm(dtStr) { 
-    const dt = new Date(param)
+    const dt = new Date(dtStr)
     const y = dt.getFullYear()
     const m = padZero(dt.getMonth() + 1)
     const d = padZero(dt.getDate())
